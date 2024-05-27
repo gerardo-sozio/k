@@ -23,7 +23,7 @@ public class LoginServlet extends HttpServlet {
 		doPost(request, response);
 	}
 			
-	
+	 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 	UserDao usDao = new UserDao();
